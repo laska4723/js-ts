@@ -1,11 +1,6 @@
-// Поменяйте значения переменных a и b местами, используя дополнительную переменную c.
+import { sayHi, sayText, sum, power } from './functions.js';
 
-let a = 10;
-let b = 20;
-
-// ... Ваш код здесь ...
-const c = a;
-a = b;
-b = c;
-
-console.log(a, b); // 20, 10
+sayHi('Анатолий');
+sayText('Привет');
+sum(4, 6, 5, 9, 3);
+power(2, 10);
