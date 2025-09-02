@@ -11,3 +11,7 @@ export const func = (text) => {
     chalk.green(text.slice(-1).toUpperCase())
   );
 };
+
+export const isStringStartsWith = (text, part) => {
+  return text.toLowerCase().startsWith(part.toLowerCase());
+};
