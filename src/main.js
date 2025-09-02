@@ -17,4 +17,4 @@ console.log(isStringStartsWith('Карго Корги', 'КАРГО ')); // true
 console.log(isStringStartsWith('Карго Корги', 'кор ')); // false
 console.log(isStringStartsWith('Ковёр', 'кова ')); // false
 
-console.log(formatString('Анатолий', 17));
+formatString('Анатолий', 17);

@@ -17,8 +17,8 @@ export const isStringStartsWith = (text, part) => {
 };
 
 export const formatString = (name, age) => {
-  return `\nДобро пожаловать!
+  console.log(`Добро пожаловать!
 Имя: ${name}
 Возраст: ${age}
-Надеемся, Вам понравится пользоваться нашим сервисом!`;
+Надеемся, Вам понравится пользоваться нашим сервисом!`);
 };
