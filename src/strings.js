@@ -17,8 +17,15 @@ export const isStringStartsWith = (text, part) => {
 };
 
 export const formatString = (name, age) => {
-  return `\nДобро пожаловать!
+  console.log(`Добро пожаловать!
 Имя: ${name}
 Возраст: ${age}
-Надеемся, Вам понравится пользоваться нашим сервисом!`;
+Надеемся, Вам понравится пользоваться нашим сервисом!`);
+};
+
+export const logStringInfo = (text) => {
+  const first = '\x1b[33m' + text[0] + '\x1b[0m';
+  const last = '\x1b[32m' + text[text.length - 1] + '\x1b[0m';
+
+  console.log(`Символов: ${text.length}\nПервый: ${first}\nПоследний: ${last}`);
 };
