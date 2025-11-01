@@ -1,4 +1,4 @@
-import { len, func } from './functions.js';
+import { len, func } from './strings.js';
 
 console.log(len('Привет!')); // 7
 console.log(len('Это очень длинная строка :)')); // 27
