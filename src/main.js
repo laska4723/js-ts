@@ -1,4 +1,4 @@
-import { len, func, isStringStartsWith } from './strings.js';
+import { len, func, isStringStartsWith, formatString } from './strings.js';
 
 console.log(len('Привет!')); // 7
 console.log(len('Это очень длинная строка :)')); // 27
@@ -16,3 +16,5 @@ console.log(isStringStartsWith('Молоко', 'мол')); // true
 console.log(isStringStartsWith('Карго Корги', 'КАРГО ')); // true
 console.log(isStringStartsWith('Карго Корги', 'кор ')); // false
 console.log(isStringStartsWith('Ковёр', 'кова ')); // false
+
+console.log(formatString('Анатолий', 17));
