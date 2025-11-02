@@ -1,9 +1,16 @@
-import { circleArea, generateInteger, squareArea } from './numbers.js';
+import { circleArea, generateInteger, squareArea, isEven } from './numbers.js';
 
 console.log(generateInteger(1, 10));
+console.log('----------------------');
 
 const randomNum = generateInteger(1, 11);
 console.log(squareArea(randomNum));
+console.log('----------------------');
 
 const randomNum2 = generateInteger(3, 13);
 console.log(circleArea(randomNum2));
+console.log('----------------------');
+
+const randomNum3 = generateInteger(1, 24);
+console.log(randomNum3);
+console.log(isEven(randomNum3));
