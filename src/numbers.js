@@ -5,3 +5,7 @@ export const generateInteger = (min, max) => {
 export const squareArea = (a) => {
   return a * a;
 };
+
+export const circleArea = (r) => {
+  return +(Math.PI * r ** 2).toFixed(2);
+};
