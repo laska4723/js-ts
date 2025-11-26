@@ -1,4 +1,4 @@
-import { circleArea, generateInteger, squareArea, isEven } from './numbers.js';
+import { circleArea, generateInteger, squareArea, isEven, calculateChange } from './numbers.js';
 
 console.log(generateInteger(1, 10));
 console.log('----------------------');
@@ -14,3 +14,7 @@ console.log('----------------------');
 const randomNum3 = generateInteger(1, 24);
 console.log(randomNum3);
 console.log(isEven(randomNum3));
+console.log('----------------------');
+
+calculateChange(12575);
+console.log('----------------------');
